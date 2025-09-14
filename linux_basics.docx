@@ -12,3 +12,9 @@
 
 5. deleting directories:
     -rm -rf dirname
+
+6. finding files and directories:
+    1- find
+         eg. find . -name abc.txt
+    2- locate
+        eg locate abc.txt (updatedb command to be run before this)
