@@ -18,3 +18,7 @@
          eg. find . -name abc.txt
     2- locate
         eg locate abc.txt (updatedb command to be run before this)
+7. wildcards:
+    * - single or multiple character
+    ? - single character
+    [] - range of character
