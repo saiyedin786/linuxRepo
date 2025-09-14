@@ -22,3 +22,13 @@
     * - single or multiple character
     ? - single character
     [] - range of character
+
+8. creating a link
+    1. soft link:
+        make a file in /home/ismail directory called jupiter
+        go to /tmp directory and create soft link with ln -s /home/ismail/jupiter command
+        verify with ls -lrt command
+    2. hard link:
+        make a file in /home/ismail directory called jupiter
+        go to /tmp directory and create soft link with ln  /home/ismail/jupiter command
+        verify with ls -lrt command
